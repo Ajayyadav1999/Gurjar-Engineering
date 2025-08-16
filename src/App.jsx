@@ -19,7 +19,7 @@ function App() {
           <Header />
           <Box component="main" sx={{ flexGrow: 1 }}>
             <Routes>
-              <Route path="/" element={<Home />} />
+            <Route path={["/", "/Gurjar-Engineering"]} element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/services" element={<Services />} />
               <Route path="/portfolio" element={<Portfolio />} />
