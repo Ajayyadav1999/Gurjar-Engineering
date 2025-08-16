@@ -1,19 +1,21 @@
 {
   "name": "gurjar-engineering-website",
+  "homepage": "https://Ajayyadav1999.github.io/Gurjar-Engineering",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.10",
-    "@mui/lab": "^7.0.0-beta.13",
+    "@mui/lab": "^5.0.0-alpha.125",
     "@mui/material": "^5.15.10",
     "autoprefixer": "^10.4.21",
     "framer-motion": "^11.0.5",
@@ -31,6 +33,7 @@
     "eslint": "^9.9.1",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.11",
+    "gh-pages": "^6.3.0",
     "globals": "^15.9.0",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.3.0",
