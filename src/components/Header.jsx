@@ -79,27 +79,6 @@ const Header = () => {
         }}
       >
         <Toolbar sx={{ justifyContent: "space-between" }}>
-          {/* <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            <Typography
-              variant="h5"
-              component={Link}
-              to="/"
-              sx={{
-                fontWeight: 700,
-                color: 'primary.main',
-                textDecoration: 'none',
-                fontFamily: '"Poppins", sans-serif',
-              }}
-            >
-              <img src={logo} alt="Gurjar Engineering Logo" style={{ height: 40, marginRight: 10 }} />
-
-            </Typography>
-          </motion.div> */}
-
           <Box
             component={Link}
             to="/"
